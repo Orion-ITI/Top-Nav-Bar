@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.ities45.orion_navigation_bars"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         minSdk = 28
