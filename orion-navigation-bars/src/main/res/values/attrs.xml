@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomToolbar">
+        <attr name="wifiIcon" format="reference" />
+        <attr name="bluetoothIcon" format="reference" />
+        <attr name="drowsinessIcon" format="reference" />
+        <attr name="settingsIcon" format="reference" />
+        <attr name="showWifiIcon" format="boolean" />
+        <attr name="showBluetoothIcon" format="boolean" />
+        <attr name="showDrowsinessIcon" format="boolean" />
+        <attr name="showSettingsIcon" format="boolean" />
+        <attr name="enableWifiClick" format="boolean" />
+        <attr name="enableBluetoothClick" format="boolean" />
+        <attr name="enableDrowsinessClick" format="boolean" />
+        <attr name="enableSettingsClick" format="boolean" />
+    </declare-styleable>
+</resources>
