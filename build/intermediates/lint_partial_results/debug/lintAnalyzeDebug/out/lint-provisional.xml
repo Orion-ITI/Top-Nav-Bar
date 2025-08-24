@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.2" type="conditional_incidents">
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete tools:targetApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*manifest*0}"
+                startOffset="620"
+                endOffset="639"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="13"
+            column="9"
+            startOffset="620"
+            endLine="13"
+            endColumn="28"
+            endOffset="639"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete tools:targetApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*manifest*0}"
+                startOffset="732"
+                endOffset="751"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="16"
+            column="9"
+            startOffset="732"
+            endLine="16"
+            endColumn="28"
+            endOffset="751"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete tools:targetApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*manifest*0}"
+                startOffset="846"
+                endOffset="865"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="19"
+            column="9"
+            startOffset="846"
+            endLine="19"
+            endColumn="28"
+            endOffset="865"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/BluetoothManager.kt"
+                startOffset="7007"
+                endOffset="7042"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/BluetoothManager.kt"
+            line="176"
+            column="5"
+            startOffset="7007"
+            endLine="176"
+            endColumn="40"
+            endOffset="7042"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/BluetoothManager.kt"
+                startOffset="8030"
+                endOffset="8065"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/BluetoothManager.kt"
+            line="202"
+            column="5"
+            startOffset="8030"
+            endLine="202"
+            endColumn="40"
+            endOffset="8065"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/BluetoothManager.kt"
+                startOffset="15945"
+                endOffset="15980"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/BluetoothManager.kt"
+            line="393"
+            column="5"
+            startOffset="15945"
+            endLine="393"
+            endColumn="40"
+            endOffset="15980"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/BluetoothManager.kt"
+                startOffset="22119"
+                endOffset="22154"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/BluetoothManager.kt"
+            line="523"
+            column="5"
+            startOffset="22119"
+            endLine="523"
+            endColumn="40"
+            endOffset="22154"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/BluetoothManager.kt"
+                startOffset="23064"
+                endOffset="23099"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/BluetoothManager.kt"
+            line="546"
+            column="5"
+            startOffset="23064"
+            endLine="546"
+            endColumn="40"
+            endOffset="23099"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/WifiManager.kt"
+                startOffset="3881"
+                endOffset="3916"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/WifiManager.kt"
+            line="104"
+            column="5"
+            startOffset="3881"
+            endLine="104"
+            endColumn="40"
+            endOffset="3916"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/WifiManager.kt"
+                startOffset="4051"
+                endOffset="4086"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/WifiManager.kt"
+            line="110"
+            column="5"
+            startOffset="4051"
+            endLine="110"
+            endColumn="40"
+            endOffset="4086"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/WifiManager.kt"
+                startOffset="7246"
+                endOffset="7281"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/WifiManager.kt"
+            line="205"
+            column="13"
+            startOffset="7246"
+            endLine="205"
+            endColumn="48"
+            endOffset="7281"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/WifiManager.kt"
+                startOffset="17234"
+                endOffset="17269"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/WifiManager.kt"
+            line="437"
+            column="5"
+            startOffset="17234"
+            endLine="437"
+            endColumn="40"
+            endOffset="17269"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/WifiManager.kt"
+                startOffset="19351"
+                endOffset="19386"/>
+        </fix-replace>
+        <location
+            file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/WifiManager.kt"
+            line="483"
+            column="5"
+            startOffset="19351"
+            endLine="483"
+            endColumn="40"
+            endOffset="19386"/>
+        <map>
+            <condition minGE="ffffffffc0000000"/>
+        </map>
+    </incident>
+
+</incidents>

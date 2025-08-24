@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.Ali-Elmansoury",
+    "module": "orion-navigation-bars",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0-milestone-1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orion-navigation-bars-1.0.5.aar",
+          "url": "orion-navigation-bars-1.0.5.aar",
+          "size": 119752,
+          "sha512": "53b1ed8a27271abf36291802b2b675cb95e5b447a757a73f4606151bfd0e76618a1c59e41d2feac5da2229e5f31fe16f3ce7be517c306613b636593ee1104068",
+          "sha256": "cd6687533df4363cfaf6b9cf08131ded0afa61e802d3c80612c77cdcd560ba16",
+          "sha1": "e12fa9afc273ec45545f1c8a76542242265e0b27",
+          "md5": "1c32b8eead19ead8058ea22a207f1ab3"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orion-navigation-bars-1.0.5.aar",
+          "url": "orion-navigation-bars-1.0.5.aar",
+          "size": 119752,
+          "sha512": "53b1ed8a27271abf36291802b2b675cb95e5b447a757a73f4606151bfd0e76618a1c59e41d2feac5da2229e5f31fe16f3ce7be517c306613b636593ee1104068",
+          "sha256": "cd6687533df4363cfaf6b9cf08131ded0afa61e802d3c80612c77cdcd560ba16",
+          "sha1": "e12fa9afc273ec45545f1c8a76542242265e0b27",
+          "md5": "1c32b8eead19ead8058ea22a207f1ab3"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "orion-navigation-bars-1.0.5-sources.jar",
+          "url": "orion-navigation-bars-1.0.5-sources.jar",
+          "size": 22415,
+          "sha512": "11c927ec24b2cd6fe734ff22f100bf66fdf8dee2518646bf0ed64604de8ae72945883d305562a0de2c6f591a93accc409118ff0b784109b856d6c9dcc5aab565",
+          "sha256": "e916b426ee81cbc82c571d83ffa4edcf13b5dee4d9da315d47bbbd33e3d5bb89",
+          "sha1": "8fbf2a3ccbe9e674096cf8d759fb690d3c258dce",
+          "md5": "ed39005938ce9bc60ef355bed0870206"
+        }
+      ]
+    }
+  ]
+}

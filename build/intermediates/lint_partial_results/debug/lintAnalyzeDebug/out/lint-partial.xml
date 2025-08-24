@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.2" type="partial_results">
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.settings.LOCATION_SOURCE_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/BluetoothManager.kt"
+                            line="386"
+                            column="43"
+                            startOffset="15781"
+                            endLine="386"
+                            endColumn="91"
+                            endOffset="15829"/>
+                        <location id="1"
+                            file="${:*debug*MAIN*sourceProvider*0*javaDir*0}/com/ities45/orion_navigation_bars/WifiManager.kt"
+                            line="315"
+                            column="43"
+                            startOffset="12471"
+                            endLine="315"
+                            endColumn="91"
+                            endOffset="12519"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.black"
+            file="${:*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="24"
+            endOffset="74"/>
+        <entry
+            name="model"
+            string="attr[textAppearanceBodyLarge(R),wifiIcon(D),bluetoothIcon(D),drowsinessIcon(D),settingsIcon(D),showWifiIcon(D),showBluetoothIcon(D),showDrowsinessIcon(D),showSettingsIcon(D),enableWifiClick(D),enableBluetoothClick(D),enableDrowsinessClick(D),enableSettingsClick(D)],color[white(U),black(D)],drawable[bluetooth(U),eye(U),hidden(U),rounded_toolbar_background(U),setting(U),wifi(U)],id[wifiIcon(U),bluetoothIcon(U),timeText(U),drowsinessIcon(U),settingsIcon(U),deviceTextView(U),deviceInfoTextView(U),progress_indicator(U),empty_message(U),device_list(U),password_input_layout(U),password_input(U),error_message(D)],layout[custom_toolbar(U),device_list_item(U),dialog_device_list(U),dialog_wifi_password(U)],style[CircularIcon(U)],styleable[CustomToolbar(U),CustomToolbar_wifiIcon(R),CustomToolbar_bluetoothIcon(R),CustomToolbar_drowsinessIcon(R),CustomToolbar_settingsIcon(R),CustomToolbar_showWifiIcon(R),CustomToolbar_showBluetoothIcon(R),CustomToolbar_showDrowsinessIcon(R),CustomToolbar_showSettingsIcon(R),CustomToolbar_enableWifiClick(R),CustomToolbar_enableBluetoothClick(R),CustomToolbar_enableDrowsinessClick(R),CustomToolbar_enableSettingsClick(R)];22^12^14^d^26^f^15^18^16^10^19^13,23^1a,24^0^1c,25^1f;;;"/>
+    </map>
+
+</incidents>

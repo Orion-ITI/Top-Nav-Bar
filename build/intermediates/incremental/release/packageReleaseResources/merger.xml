@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res"><file name="bluetooth" path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/drawable/bluetooth.png" qualifiers="" type="drawable"/><file name="eye" path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/drawable/eye.png" qualifiers="" type="drawable"/><file name="rounded_toolbar_background" path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/drawable/rounded_toolbar_background.xml" qualifiers="" type="drawable"/><file name="wifi" path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/drawable/wifi.png" qualifiers="" type="drawable"/><file name="hidden" path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/drawable/hidden.png" qualifiers="" type="drawable"/><file name="setting" path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/drawable/setting.png" qualifiers="" type="drawable"/><file name="dialog_device_list" path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/layout/dialog_device_list.xml" qualifiers="" type="layout"/><file name="custom_toolbar" path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/layout/custom_toolbar.xml" qualifiers="" type="layout"/><file name="device_list_item" path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/layout/device_list_item.xml" qualifiers="" type="layout"/><file name="dialog_wifi_password" path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/layout/dialog_wifi_password.xml" qualifiers="" type="layout"/><file path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/values/styles.xml" qualifiers=""><style name="CircularIcon" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">#FFFFFF</item>
+    </style></file><file path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="CustomToolbar">
+        <attr format="reference" name="wifiIcon"/>
+        <attr format="reference" name="bluetoothIcon"/>
+        <attr format="reference" name="drowsinessIcon"/>
+        <attr format="reference" name="settingsIcon"/>
+        <attr format="boolean" name="showWifiIcon"/>
+        <attr format="boolean" name="showBluetoothIcon"/>
+        <attr format="boolean" name="showDrowsinessIcon"/>
+        <attr format="boolean" name="showSettingsIcon"/>
+        <attr format="boolean" name="enableWifiClick"/>
+        <attr format="boolean" name="enableBluetoothClick"/>
+        <attr format="boolean" name="enableDrowsinessClick"/>
+        <attr format="boolean" name="enableSettingsClick"/>
+    </declare-styleable></file><file path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/res/values/colors.xml" qualifiers=""><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/build/generated/res/resValues/release"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CustomToolbar">
+        <attr format="reference" name="wifiIcon"/>
+        <attr format="reference" name="bluetoothIcon"/>
+        <attr format="reference" name="drowsinessIcon"/>
+        <attr format="reference" name="settingsIcon"/>
+        <attr format="boolean" name="showWifiIcon"/>
+        <attr format="boolean" name="showBluetoothIcon"/>
+        <attr format="boolean" name="showDrowsinessIcon"/>
+        <attr format="boolean" name="showSettingsIcon"/>
+        <attr format="boolean" name="enableWifiClick"/>
+        <attr format="boolean" name="enableBluetoothClick"/>
+        <attr format="boolean" name="enableDrowsinessClick"/>
+        <attr format="boolean" name="enableSettingsClick"/>
+    </declare-styleable></configuration></mergedItems></merger>

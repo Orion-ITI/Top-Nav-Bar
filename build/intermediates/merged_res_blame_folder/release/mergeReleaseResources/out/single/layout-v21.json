@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.ities45.orion_navigation_bars-release-34:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.ities45.orion_navigation_bars-core-1.13.1-21:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.ities45.orion_navigation_bars-release-34:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.ities45.orion_navigation_bars-core-1.13.1-21:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.ities45.orion_navigation_bars-release-34:/layout-v21/notification_action.xml",
+        "source": "com.ities45.orion_navigation_bars-core-1.13.1-21:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.ities45.orion_navigation_bars-release-34:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.ities45.orion_navigation_bars-core-1.13.1-21:/layout-v21/notification_template_custom_big.xml"
+    }
+]

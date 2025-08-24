@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars"
+    name=":"
+    type="LIBRARY"
+    maven=":orion-navigation-bars:unspecified"
+    agpVersion="8.5.2"
+    buildFolder="build"
+    bootClassPath="/home/ali/Android/Sdk/platforms/android-34/android.jar:/home/ali/Android/Sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

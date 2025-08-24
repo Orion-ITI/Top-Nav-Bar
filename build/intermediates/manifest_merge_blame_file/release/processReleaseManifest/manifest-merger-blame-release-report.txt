@@ -1,0 +1,58 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.ities45.orion_navigation_bars" >
+5
+6    <uses-sdk android:minSdkVersion="28" />
+7
+8    <!-- Legacy permissions (needed for backward compatibility) -->
+9    <uses-permission
+9-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:6:5-94
+10        android:name="android.permission.BLUETOOTH"
+10-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:6:22-65
+11        android:maxSdkVersion="30" />
+11-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:6:66-92
+12    <uses-permission
+12-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:7:5-100
+13        android:name="android.permission.BLUETOOTH_ADMIN"
+13-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:7:22-71
+14        android:maxSdkVersion="30" />
+14-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:7:72-98
+15
+16    <!-- Android 12+ runtime dangerous permissions -->
+17    <uses-permission
+17-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:10:5-13:31
+18        android:name="android.permission.BLUETOOTH_SCAN"
+18-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:11:9-57
+19        android:usesPermissionFlags="neverForLocation"
+19-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:12:9-55
+20        tools:targetApi="s" />
+20-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:13:9-28
+21    <uses-permission
+21-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:14:5-16:31
+22        android:name="android.permission.BLUETOOTH_CONNECT"
+22-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:15:9-60
+23        tools:targetApi="s" />
+23-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:16:9-28
+24    <uses-permission
+24-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:17:5-19:31
+25        android:name="android.permission.BLUETOOTH_ADVERTISE"
+25-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:18:9-62
+26        tools:targetApi="s" />
+26-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:19:9-28
+27
+28    <!-- Location still required for discovery visibility -->
+29    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+29-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:22:5-79
+29-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:22:22-76
+30    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+30-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:23:5-81
+30-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:23:22-78
+31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+31-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:25:5-76
+31-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:25:22-73
+32    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+32-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:26:5-76
+32-->/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars/src/main/AndroidManifest.xml:26:22-73
+33
+34</manifest>

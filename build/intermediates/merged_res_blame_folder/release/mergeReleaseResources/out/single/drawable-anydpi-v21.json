@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.ities45.orion_navigation_bars-release-34:/drawable-anydpi-v21/ic_call_answer_video.xml",
+        "source": "com.ities45.orion_navigation_bars-core-1.13.1-21:/drawable-anydpi-v21/ic_call_answer_video.xml"
+    },
+    {
+        "merged": "com.ities45.orion_navigation_bars-release-34:/drawable-anydpi-v21/ic_call_answer_low.xml",
+        "source": "com.ities45.orion_navigation_bars-core-1.13.1-21:/drawable-anydpi-v21/ic_call_answer_low.xml"
+    },
+    {
+        "merged": "com.ities45.orion_navigation_bars-release-34:/drawable-anydpi-v21/ic_call_answer.xml",
+        "source": "com.ities45.orion_navigation_bars-core-1.13.1-21:/drawable-anydpi-v21/ic_call_answer.xml"
+    },
+    {
+        "merged": "com.ities45.orion_navigation_bars-release-34:/drawable-anydpi-v21/ic_call_answer_video_low.xml",
+        "source": "com.ities45.orion_navigation_bars-core-1.13.1-21:/drawable-anydpi-v21/ic_call_answer_video_low.xml"
+    },
+    {
+        "merged": "com.ities45.orion_navigation_bars-release-34:/drawable-anydpi-v21/ic_call_decline.xml",
+        "source": "com.ities45.orion_navigation_bars-core-1.13.1-21:/drawable-anydpi-v21/ic_call_decline.xml"
+    },
+    {
+        "merged": "com.ities45.orion_navigation_bars-release-34:/drawable-anydpi-v21/ic_call_decline_low.xml",
+        "source": "com.ities45.orion_navigation_bars-core-1.13.1-21:/drawable-anydpi-v21/ic_call_decline_low.xml"
+    }
+]

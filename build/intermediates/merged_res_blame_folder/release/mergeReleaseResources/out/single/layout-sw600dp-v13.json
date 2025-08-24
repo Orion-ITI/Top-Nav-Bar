@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.ities45.orion_navigation_bars-release-34:/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "com.ities45.orion_navigation_bars-material-1.12.0-14:/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "com.ities45.orion_navigation_bars-release-34:/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "com.ities45.orion_navigation_bars-material-1.12.0-14:/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]
