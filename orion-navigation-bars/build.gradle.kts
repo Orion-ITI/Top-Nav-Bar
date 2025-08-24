@@ -40,19 +40,19 @@ android {
 
 dependencies {
     // AndroidX Core
-    implementation("androidx.core:core-ktx:1.13.1")
+    implementation("androidx.core:core-ktx:1.17.0")
 
     // AppCompat
-    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("androidx.appcompat:appcompat:1.7.1")
 
     // Material Components
     implementation("com.google.android.material:material:1.12.0")
 
     // Activity KTX
-    implementation("androidx.activity:activity-ktx:1.9.0")
+    implementation("androidx.activity:activity-ktx:1.10.1")
 
     // ConstraintLayout
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
 
     // Unit Testing
     testImplementation("junit:junit:4.13.2")
@@ -67,7 +67,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.Ali-Elmansoury"
             artifactId = "orion-navigation-bars"
-            version = "1.0.5"
+            version = "1.0.1"
             afterEvaluate {
                 from(components["release"])
             }
