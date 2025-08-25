@@ -37,7 +37,7 @@ class WifiManager(private val context: Context) {
     companion object {
         const val REQUEST_WIFI_PERMISSION = 2
         private const val TAG = "WifiManager"
-        private const val CONNECTION_TIMEOUT_MS = 10_000L
+        private const val CONNECTION_TIMEOUT_MS = 5_000L
     }
 
     private val wifiManager: WifiManager by lazy { context.getSystemService(Context.WIFI_SERVICE) as WifiManager }

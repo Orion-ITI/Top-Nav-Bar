@@ -2,6 +2,7 @@ plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id("maven-publish")
+    id("org.jetbrains.kotlin.plugin.parcelize") version "2.2.10" // Use your Kotlin version
 }
 
 android {
@@ -67,7 +68,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.Ali-Elmansoury"
             artifactId = "orion-navigation-bars"
-            version = "1.0.2"
+            version = "1.0.3"
             afterEvaluate {
                 from(components["release"])
             }
