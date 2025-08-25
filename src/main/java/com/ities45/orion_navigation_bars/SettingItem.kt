@@ -5,6 +5,6 @@ data class SettingItem(
     val name: String,
     val iconResId: Int,
     var isEnabled: Boolean = false,
-    val onEnable: (() -> Unit)? = null,
-    val onDisable: (() -> Unit)? = null
+    var onEnable: (() -> Unit)? = null,
+    var onDisable: (() -> Unit)? = null
 )
