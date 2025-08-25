@@ -1,5 +1,6 @@
 package com.ities45.orion_navigation_bars
 
+import android.util.TypedValue
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView
 
 class SettingsAdapter(
     private var settings: List<SettingItem>,
+    private val iconSize: Float = -1f, // -1 means use default
+    private val textSize: Float = -1f, // -1 means use default
     private val onItemChanged: (SettingItem) -> Unit
 ) : RecyclerView.Adapter<SettingsAdapter.SettingViewHolder>() {
 
@@ -28,17 +31,24 @@ class SettingsAdapter(
     override fun onBindViewHolder(holder: SettingViewHolder, position: Int) {
         val setting = settings[position]
 
+        // Apply icon size if specified
+        if (iconSize > 0) {
+            holder.icon.layoutParams.width = iconSize.toInt()
+            holder.icon.layoutParams.height = iconSize.toInt()
+            holder.icon.requestLayout()
+        }
+
+        // Apply text size if specified
+        if (textSize > 0) {
+            holder.name.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize)
+        }
+
         holder.icon.setImageResource(setting.iconResId)
         holder.name.text = setting.name
         holder.toggle.isChecked = setting.isEnabled
 
         holder.toggle.setOnCheckedChangeListener { _, isChecked ->
             setting.isEnabled = isChecked
-            if (isChecked) {
-                setting.onEnable?.invoke()
-            } else {
-                setting.onDisable?.invoke()
-            }
             onItemChanged(setting)
         }
 
