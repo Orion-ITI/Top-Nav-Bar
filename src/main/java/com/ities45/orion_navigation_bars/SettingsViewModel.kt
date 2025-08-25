@@ -4,7 +4,6 @@ import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.LiveData
-import androidx.core.content.edit
 
 class SettingsViewModel(private val context: Context) : ViewModel() {
     private val sharedPreferences = context.getSharedPreferences("app_settings", Context.MODE_PRIVATE)
@@ -27,11 +26,11 @@ class SettingsViewModel(private val context: Context) : ViewModel() {
         _settings.value = updatedSettings
 
         // Persist the setting
-        sharedPreferences.edit { putBoolean("setting_$settingId", isEnabled) }
+        sharedPreferences.edit().putBoolean("setting_$settingId", isEnabled).apply()
     }
 
     fun loadSettings(defaultSettings: List<SettingItem>): List<SettingItem> {
-        return defaultSettings.map { setting ->
+        val loadedSettings = defaultSettings.map { setting ->
             val isEnabled = sharedPreferences.getBoolean("setting_${setting.id}", setting.isEnabled)
             setting.copy(isEnabled = isEnabled).apply {
                 // Keep the original callbacks
@@ -39,6 +38,10 @@ class SettingsViewModel(private val context: Context) : ViewModel() {
                 this.onDisable = setting.onDisable
             }
         }
+
+        // Update LiveData with loaded settings
+        _settings.value = loadedSettings
+        return loadedSettings
     }
 
     fun setSettings(settings: List<SettingItem>) {

@@ -45,11 +45,17 @@ class SettingsAdapter(
 
         holder.icon.setImageResource(setting.iconResId)
         holder.name.text = setting.name
+
+        // Remove previous listener to avoid infinite loops
+        holder.toggle.setOnCheckedChangeListener(null)
         holder.toggle.isChecked = setting.isEnabled
 
         holder.toggle.setOnCheckedChangeListener { _, isChecked ->
-            setting.isEnabled = isChecked
-            onItemChanged(setting)
+            // Only update if the value actually changed
+            if (setting.isEnabled != isChecked) {
+                setting.isEnabled = isChecked
+                onItemChanged(setting)
+            }
         }
 
         // Make the entire item clickable to toggle the switch

@@ -81,7 +81,7 @@ class SettingsFragment : DialogFragment() {
 
         // Parse arguments
         val title = arguments?.getString(ARG_TITLE) ?: "Settings"
-        val buttonText = arguments?.getString(ARG_BUTTON_TEXT) ?: "Apply"
+        val buttonText = arguments?.getString(ARG_BUTTON_TEXT) ?: "Go to System Settings"
         val width = arguments?.getInt(ARG_WIDTH, ViewGroup.LayoutParams.MATCH_PARENT) ?: ViewGroup.LayoutParams.MATCH_PARENT
         val height = arguments?.getInt(ARG_HEIGHT, ViewGroup.LayoutParams.WRAP_CONTENT) ?: ViewGroup.LayoutParams.WRAP_CONTENT
         iconSize = arguments?.getFloat(ARG_ICON_SIZE, -1f) ?: -1f
@@ -100,11 +100,17 @@ class SettingsFragment : DialogFragment() {
             actionButton.setTextSize(TypedValue.COMPLEX_UNIT_PX, buttonTextSize)
         }
 
-        // Initialize settings list
+        // Initialize settings list from arguments
         settingsList.clear()
         parcelableSettings?.forEach {
             val settingItem = it.toSettingItem()
             settingsList.add(settingItem)
+        }
+
+        // If we have a ViewModel, use its settings instead (which include persisted values)
+        viewModel?.settings?.value?.let { persistedSettings ->
+            settingsList.clear()
+            settingsList.addAll(persistedSettings)
         }
 
         // Set up RecyclerView
@@ -130,6 +136,13 @@ class SettingsFragment : DialogFragment() {
         }
 
         settingsRecyclerView.adapter = adapter
+
+        // Observe ViewModel for settings changes
+        viewModel?.settings?.observe(viewLifecycleOwner) { newSettings ->
+            settingsList.clear()
+            settingsList.addAll(newSettings)
+            adapter.updateSettings(settingsList)
+        }
 
         // Set up button click listener
         actionButton.setOnClickListener {
