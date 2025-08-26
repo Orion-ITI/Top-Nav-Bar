@@ -6,7 +6,7 @@
     android:layout_gravity="right"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="20dp"
     android:background="@drawable/rounded_bg">
 
     <RelativeLayout
@@ -43,6 +43,7 @@
         android:id="@+id/settingsActionButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:backgroundTint="@null"
         android:text="Go to System Settings"/>
 
 </LinearLayout>

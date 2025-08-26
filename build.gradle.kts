@@ -71,7 +71,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.Ali-Elmansoury"
             artifactId = "orion-navigation-bars"
-            version = "1.0.7"
+            version = "1.0.9"
             afterEvaluate {
                 from(components["release"])
             }
