@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Checked + Pressed -->
+    <item android:color="?attr/colorPrimaryDark" android:state_pressed="true" android:state_checked="true"/>
+    <!-- Unchecked + Pressed -->
+    <item android:color="?attr/colorOnSurfaceVariant" android:state_pressed="true" android:state_checked="false"/>
+    <!-- Checked -->
+    <item android:color="?attr/colorPrimary" android:state_checked="true"/>
+    <!-- Unchecked -->
+    <item android:color="?attr/colorOnSurface"/>
+</selector>

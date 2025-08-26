@@ -39,7 +39,7 @@
         tools:listitem="@layout/item_setting"
         android:layout_marginBottom="16dp" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/settingsActionButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

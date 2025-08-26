@@ -14,8 +14,8 @@ class SettingsAdapter(
     private var settings: List<SettingItem>,
     private val iconSize: Float = -1f, // -1 means use default
     private val textSize: Float = -1f, // -1 means use default
-    private val switchCheckedColor: Int? = null,
-    private val switchUncheckedColor: Int? = null,
+    private val switchThumbColorResId: Int? = null,
+    private val switchTrackColorResId: Int? = null,
     private val onItemChanged: (SettingItem) -> Unit
 ) : RecyclerView.Adapter<SettingsAdapter.SettingViewHolder>() {
 
@@ -33,6 +33,7 @@ class SettingsAdapter(
 
     override fun onBindViewHolder(holder: SettingViewHolder, position: Int) {
         val setting = settings[position]
+        val context = holder.itemView.context
 
         // Apply icon size if specified
         if (iconSize > 0) {
@@ -54,19 +55,14 @@ class SettingsAdapter(
         holder.toggle.isChecked = setting.isEnabled
 
         // Apply custom switch colors if provided
-        switchCheckedColor?.let { color ->
-            holder.toggle.thumbTintList = ContextCompat.getColorStateList(holder.itemView.context, color)
-            holder.toggle.trackTintList = ContextCompat.getColorStateList(holder.itemView.context, color)
+        switchThumbColorResId?.let { colorResId ->
+            val thumbColorStateList = ContextCompat.getColorStateList(context, colorResId)
+            holder.toggle.thumbTintList = thumbColorStateList
         }
 
-        switchUncheckedColor?.let { color ->
-            // For unchecked state, we might need to create a custom ColorStateList
-            // For simplicity, we'll just set the thumb and track tint lists
-            // You might want to enhance this for better control
-            if (switchCheckedColor == null) {
-                holder.toggle.thumbTintList = ContextCompat.getColorStateList(holder.itemView.context, color)
-                holder.toggle.trackTintList = ContextCompat.getColorStateList(holder.itemView.context, color)
-            }
+        switchTrackColorResId?.let { colorResId ->
+            val trackColorStateList = ContextCompat.getColorStateList(context, colorResId)
+            holder.toggle.trackTintList = trackColorStateList
         }
 
         holder.toggle.setOnCheckedChangeListener { _, isChecked ->

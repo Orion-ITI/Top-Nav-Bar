@@ -26,8 +26,9 @@ class SettingsFragment : DialogFragment() {
         private const val ARG_BUTTON_TEXT_SIZE = "button_text_size"
         private const val ARG_BUTTON_BG_COLOR = "button_bg_color"
         private const val ARG_BUTTON_TEXT_COLOR = "button_text_color"
-        private const val ARG_SWITCH_CHECKED_COLOR = "switch_checked_color"
-        private const val ARG_SWITCH_UNCHECKED_COLOR = "switch_unchecked_color"
+        private const val ARG_SWITCH_THUMB_COLOR = "switch_thumb_color"
+        private const val ARG_SWITCH_TRACK_COLOR = "switch_track_color"
+        private const val ARG_LAYOUT_BACKGROUND = "layout_background"
 
         fun newInstance(
             title: String,
@@ -41,8 +42,9 @@ class SettingsFragment : DialogFragment() {
             onButtonClick: (() -> Unit)? = null,
             buttonBackgroundColor: Int? = null,
             buttonTextColor: Int? = null,
-            switchCheckedColor: Int? = null,
-            switchUncheckedColor: Int? = null
+            switchThumbColor: Int? = null,
+            switchTrackColor: Int? = null,
+            layoutBackground: Int? = null,
         ): SettingsFragment {
             val fragment = SettingsFragment()
             val args = Bundle()
@@ -62,8 +64,10 @@ class SettingsFragment : DialogFragment() {
             // Add color arguments if provided
             buttonBackgroundColor?.let { args.putInt(ARG_BUTTON_BG_COLOR, it) }
             buttonTextColor?.let { args.putInt(ARG_BUTTON_TEXT_COLOR, it) }
-            switchCheckedColor?.let { args.putInt(ARG_SWITCH_CHECKED_COLOR, it) }
-            switchUncheckedColor?.let { args.putInt(ARG_SWITCH_UNCHECKED_COLOR, it) }
+            switchThumbColor?.let { args.putInt(ARG_SWITCH_THUMB_COLOR, it) }
+            switchTrackColor?.let { args.putInt(ARG_SWITCH_TRACK_COLOR, it) }
+
+            layoutBackground?.let { args.putInt(ARG_LAYOUT_BACKGROUND, it) }
 
             fragment.arguments = args
             fragment.buttonClickListener = onButtonClick
@@ -84,8 +88,10 @@ class SettingsFragment : DialogFragment() {
     // Color properties
     private var buttonBackgroundColor: Int? = null
     private var buttonTextColor: Int? = null
-    private var switchCheckedColor: Int? = null
-    private var switchUncheckedColor: Int? = null
+    private var switchThumbColor: Int? = null
+    private var switchTrackColor: Int? = null
+
+    private var layoutBackground: Int? = null
 
     var viewModel: SettingsViewModel? = null
 
@@ -114,8 +120,15 @@ class SettingsFragment : DialogFragment() {
         // Parse color arguments
         buttonBackgroundColor = arguments?.getInt(ARG_BUTTON_BG_COLOR, 0).takeIf { it != 0 }
         buttonTextColor = arguments?.getInt(ARG_BUTTON_TEXT_COLOR, 0).takeIf { it != 0 }
-        switchCheckedColor = arguments?.getInt(ARG_SWITCH_CHECKED_COLOR, 0).takeIf { it != 0 }
-        switchUncheckedColor = arguments?.getInt(ARG_SWITCH_UNCHECKED_COLOR, 0).takeIf { it != 0 }
+        switchThumbColor = arguments?.getInt(ARG_SWITCH_THUMB_COLOR, 0).takeIf { it != 0 }
+        switchTrackColor = arguments?.getInt(ARG_SWITCH_TRACK_COLOR, 0).takeIf { it != 0 }
+
+        layoutBackground = arguments?.getInt(ARG_LAYOUT_BACKGROUND, 0).takeIf { it != 0 }
+
+        // Apply layout customizations
+        layoutBackground?.let { backgroundResId ->
+            view.setBackgroundResource(backgroundResId)
+        }
 
         // Set up views
         view.findViewById<TextView>(R.id.settingsTitle).text = title
