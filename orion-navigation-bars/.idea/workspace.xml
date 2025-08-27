@@ -17,44 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cab8c06-e1bd-4e49-92fc-d47b82fe6d01" name="Changes" comment="update gradle">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/migrations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jitpack.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ities45/orion_navigation_bars/BluetoothManager.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ities45/orion_navigation_bars/CustomToolbar.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ities45/orion_navigation_bars/WifiManager.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bluetooth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/eye.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/hidden.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/rounded_toolbar_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/setting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/wifi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/custom_toolbar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/device_list_item.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/dialog_device_list.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/dialog_wifi_password.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/attrs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/9.0-milestone-1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/9.0-milestone-1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/res/layout/fragment_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/res/layout/fragment_settings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,44 +36,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Ali-Elmansoury"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ali-Elmansoury&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Orion-ITI/Top-Nav-Bar.git",
-    "accountId": "d8b29e7d-b66d-4c22-9d0d-ca6bc70c2f9a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Orion-ITI/Top-Nav-Bar.git&quot;,
+    &quot;accountId&quot;: &quot;d8b29e7d-b66d-4c22-9d0d-ca6bc70c2f9a&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="31juSxIHxcrM9h2rGaUtuulXXW2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "KEY_ANDROID_SOURCE_PATH/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars": "/home/ali/ITI-9Months-ES",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar",
-    "project.structure.last.edited": "Dependencies",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;KEY_ANDROID_SOURCE_PATH/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar/orion-navigation-bars&quot;: &quot;/home/ali/ITI-9Months-ES&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ali/ITI-9Months-ES/Embedded_FinalProject_Orion/Nav-Bar-Lib/Top-Nav-Bar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Dependencies&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5cab8c06-e1bd-4e49-92fc-d47b82fe6d01" name="Changes" comment="" />
